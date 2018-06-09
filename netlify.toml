@@ -1,0 +1,7 @@
+# Global settings applied to the whole site.
+[build]
+  command = "gulp build"
+  publish = "dest/"
+
+[context.develop]
+  command = "gulp build && mv ._headers.develop dest/_headers"
